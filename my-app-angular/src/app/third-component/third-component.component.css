@@ -1,0 +1,15 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
