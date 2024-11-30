@@ -1,0 +1,10 @@
+<div>
+    <app-movie-item
+      *ngFor="let movie of movies"
+      [movie]="movie"
+      (movieSelected)="onMovieSelected($event)">
+    </app-movie-item>
+  </div>
+  
+  <p *ngIf="selectedMovie">Película seleccionada: {{ selectedMovie }}</p>
+  

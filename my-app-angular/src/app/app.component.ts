@@ -5,10 +5,13 @@ import { SecondComponentComponent } from './second-component/second-component.co
 import { ThirdComponentComponent } from './third-component/third-component.component';
 import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from './footer/footer.component';
+import { MovieListComponent } from './movie-list/movie-list.component';
+import { MovieItemComponent } from './movie-item/movie-item.component';
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, FirstComponentComponent, SecondComponentComponent, ThirdComponentComponent, HeaderComponent, FooterComponent],
+  imports: [RouterOutlet, FirstComponentComponent, SecondComponentComponent, ThirdComponentComponent, HeaderComponent, FooterComponent, MovieListComponent, MovieItemComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
