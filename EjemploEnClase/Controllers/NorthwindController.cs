@@ -1,5 +1,6 @@
 ﻿using EjemploEnClase.ConDY;
 using EjemploEnClase.Model;
+using EjemploEnClase.QueryResponse;
 using EjemploEnClase.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -33,7 +34,7 @@ namespace EjemploEnClase.Controllers
 
         [HttpGet]
         [Route("api/getById")]
-        public async Task<Employees> GetEmployeeById([FromQuery]int id)
+        public async Task<Employees> GetEmployeeById([FromQuery] int id)
         {
             return await _northwindRepository.GetEmployeeById(id);
         }
@@ -71,6 +72,48 @@ namespace EjemploEnClase.Controllers
         public async Task<Employees> GetOlderEmployee()
         {
             return await _northwindRepository.GetOlderEmployee();
+        }
+
+        [HttpGet]
+        [Route("api/getQtyByTitle")]
+        public async Task<List<EmployeeByTitle>> GetQtyEmployeeByTitle()
+        {
+            return await _northwindRepository.GetQtyEmployeeByTitle();
+        }
+
+        [HttpGet]
+        [Route("api/getProductWithCategory")]
+        public async Task<List<ProductWithCategory>> GetProductWithCategory()
+        {
+            return await _northwindRepository.GetProductWithCategory();
+        }
+
+        [HttpGet]
+        [Route("api/getProductsLike")]
+        public async Task<List<Products>> GetProductsLike([FromQuery] string name)
+        {
+            return await _northwindRepository.GetProductsLike(name);
+        }
+
+        [HttpDelete]
+        [Route("api/deleteOrderById")]
+        public async Task<bool> DeleteOrderById([FromQuery] int orderId)
+        {
+            return await _northwindRepository.DeleteOrderById(orderId);
+        }
+
+        [HttpPut]
+        [Route("api/modifyEmployeeName")]
+        public async Task<bool> ModifyEmployeeName([FromQuery] int id, [FromQuery] string name)
+        {
+            return await _northwindRepository.ModifyEmployeeName(id, name);
+        }
+
+        [HttpPost]
+        [Route("api/newEmployee")]
+        public async Task<bool> NewEmployee()
+        {
+            return await _northwindRepository.NewEmployee();
         }
     }
 }

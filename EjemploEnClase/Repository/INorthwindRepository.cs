@@ -1,4 +1,5 @@
 ﻿using EjemploEnClase.Model;
+using EjemploEnClase.QueryResponse;
 
 namespace EjemploEnClase.Repository
 {
@@ -19,5 +20,17 @@ namespace EjemploEnClase.Repository
         Task<List<Employees>> GetAllEmployeesByCountry(string country);
 
         Task<Employees> GetOlderEmployee();
+
+        Task<List<EmployeeByTitle>> GetQtyEmployeeByTitle();
+
+        Task<List<ProductWithCategory>> GetProductWithCategory();
+
+        Task<List<Products>> GetProductsLike(string name);
+
+        Task<bool> DeleteOrderById(int orderId);
+
+        Task<bool> ModifyEmployeeName(int id, string name);
+
+        Task<bool> NewEmployee();
     }
 }
