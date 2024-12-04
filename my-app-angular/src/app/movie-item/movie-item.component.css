@@ -1,0 +1,41 @@
+.movie-card {
+    border: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.movie-card img {
+    max-width: 220px; /* La imagen se adapta al ancho del contenedor */
+}
+
+button {
+    background-color: #059200;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #15c933;
+}
+
+@media (max-width: 768px){
+    .movie-item {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px){
+    .movie-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .movie-item p {
+        font-size: 0.9rem;
+    }
+}

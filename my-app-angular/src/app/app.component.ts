@@ -9,9 +9,11 @@ import { MovieListComponent } from './movie-list/movie-list.component';
 import { MovieItemComponent } from './movie-item/movie-item.component';
 
 
+
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, FirstComponentComponent, SecondComponentComponent, ThirdComponentComponent, HeaderComponent, FooterComponent, MovieListComponent, MovieItemComponent],
+  standalone: true,
+  imports: [RouterOutlet,  HeaderComponent, FooterComponent ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -1,6 +1,6 @@
-<div>
-    <h2>{{ movie.title }} ({{ movie.year }})</h2>
-    <p *ngIf="movie.description">{{ movie.description }}</p>
-    <button (click)="selectMovie()">Seleccionar</button>
-  </div>
-  
+<div class="movie-card">
+  <img [src]="movie.image" alt="{{movie.title}} poster">
+  <h3>{{movie.title}} ({{movie.year}})</h3>
+  <p *ngIf="movie.description">{{movie.description}}</p>
+  <button (click)="selectMovie()">Seleccionar</button>
+</div>

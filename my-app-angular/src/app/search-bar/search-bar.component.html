@@ -1,0 +1,4 @@
+<div class="search-container">
+    <input type="text" [(ngModel)]="searchTerm" placeholder="Buscar películas..."/>
+    <p *ngIf="searchTerm"> Buscando: {{searchTerm}}</p>
+</div>

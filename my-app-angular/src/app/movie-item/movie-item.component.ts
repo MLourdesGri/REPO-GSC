@@ -1,17 +1,20 @@
-import { CommonModule } from '@angular/common';
 import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Movie } from '../movie';
+import { NgIf } from '@angular/common';
+
 
 @Component({
   selector: 'app-movie-item',
+  standalone: true,
+  imports: [NgIf],
   templateUrl: './movie-item.component.html',
-  styleUrls: ['./movie-item.component.css'],
-  imports: [CommonModule]
+  styleUrl: './movie-item.component.css'
 })
 export class MovieItemComponent {
-  @Input() movie!: { title: string; year: number; description: string };
+  @Input() movie!: Movie;
   @Output() movieSelected = new EventEmitter<string>();
 
-  selectMovie(): void {
-    this.movieSelected.emit(this.movie.title);
+  selectMovie(): void{
+    this.movieSelected.emit(this.movie.title)
   }
 }

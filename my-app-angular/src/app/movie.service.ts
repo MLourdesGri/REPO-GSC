@@ -1,28 +1,10 @@
-import { NgFor, NgIf } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
-import { MovieItemComponent } from '../movie-item/movie-item.component';
-import { MovieService } from '../movie.service';
-import { Movie } from '../movie';
+import { Injectable } from '@angular/core';
 
-/* export interface Movie {
-  title: string;
-  year: number;
-  description: string;
-  image?: string;
-}  */
-
-@Component({
-  selector: 'app-movie-list',
-  standalone: true,
-  imports: [NgIf, NgFor,MovieItemComponent],
-  templateUrl: './movie-list.component.html',
-  styleUrl: './movie-list.component.css'
- 
+@Injectable({
+  providedIn: 'root'
 })
-
-
-export class MovieListComponent implements OnInit{
-  /* movies: Movie[] = [
+export class MovieService {
+  private movies = [
     {
       title: 'Inception', 
       year: 2010, 
@@ -50,22 +32,9 @@ export class MovieListComponent implements OnInit{
       description: 'Un thriller alucinante.',
       image: "https://pics.filmaffinity.com/the_dark_knight-102763119-mmed.jpg"
     }
-  ] */
+  ] 
 
-  movies: Movie[] = [];
-  selectedMovie: string = ''
-
-  constructor(private movieService: MovieService){}
-
-   onMovieSelected(movieTitle: string): void{
-    this.selectedMovie = movieTitle
-} 
-
-  ngOnInit(): void {
-    this.movies = this.movieService.getMovies();
+  getMovies(){
+    return this.movies
   }
-
 }
-
-
-
