@@ -1,7 +1,28 @@
 .footer {
-    background-color: #529949;
+    background-color: #3f973f;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
+    border: none;
+    margin: 0;
+
+    
   }
-  
+  .footer nav ul li a{
+    text-decoration: none;
+  }
+
+  .footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+
+.footer nav ul li a:hover {
+    text-decoration: underline; /* Opcional: subrayar al pasar el cursor */
+
+}
+
+  a:visited {
+    color: inherit; /* Esto mantiene el color actual del texto */
+    text-decoration: none; /* Opcional, si deseas evitar subrayados */
+}

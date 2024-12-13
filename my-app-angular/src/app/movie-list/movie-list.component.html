@@ -4,6 +4,7 @@
     [movie]="movie"
     (movieSelected)="onMovieSelected($event)">
   </app-movie-item>
-
+  <div class="seleccionada">
   <p *ngIf="selectedMovie">Película seleccionada: {{selectedMovie}}</p>
+  </div>
 </div>

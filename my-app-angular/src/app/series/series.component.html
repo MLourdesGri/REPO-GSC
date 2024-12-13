@@ -1,0 +1,34 @@
+<div class="episodes-container">
+    <!-- Campo para editar el nombre de la serie -->
+    <label for="seriesTitleInput">Serie:</label>
+    <input
+        id="seriesTitleInput"
+        type="text"
+        class="series-title-input"
+        [(ngModel)]="seriesTitle"
+        (change)="onSeriesTitleChange()"
+        placeholder="Escribe el nombre de la serie"
+    />
+
+    <h3>Lista de episodios de la serie: {{ seriesTitle }}</h3>
+    <p *ngIf="errorMessage" class="error-message">{{ errorMessage }}</p>
+
+    <label for="seasonSelect">Selecciona la Temporada:</label>
+    <select
+        id="seasonSelect"
+        [(ngModel)]="season"
+        (change)="onSeasonChange()"
+        [disabled]="!!errorMessage"
+    >
+        <option *ngFor="let seasonNumber of [].constructor(totalSeasons); let i = index" [value]="i + 1">
+            Temporada {{ i + 1 }}
+        </option>
+    </select>
+
+    <ul *ngIf="episodes.length > 0 && !errorMessage">
+        <li *ngFor="let episode of episodes">
+            <strong>{{ episode.Title }}</strong> Emitido en: {{ episode.Released }} 
+        </li>
+    </ul>
+
+</div>

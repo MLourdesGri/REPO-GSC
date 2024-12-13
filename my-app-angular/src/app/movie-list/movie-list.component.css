@@ -1,3 +1,18 @@
 .movie-list{
-    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Espaciado entre tarjetas */
+    justify-content: center; /* Centramos las tarjetas */
+    padding: 16px;
+    
+}
+.seleccionada{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+p{
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
 }

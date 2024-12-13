@@ -1,41 +1,69 @@
 .movie-card {
-    border: 1px;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
+    display: flex;
+    flex-direction: column; /* Elementos apilados verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    max-width: 250px; /* Define un ancho máximo */
+    background-color: #f9f9f9; /* Fondo claro */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    overflow: hidden; /* Evitar desbordes */
+    margin: 10px; /* Espaciado externo */
+    text-align: center; /* Centrar contenido textual */
 }
 
 
 
 .movie-card img {
-    max-width: 220px; /* La imagen se adapta al ancho del contenedor */
+    max-width: 200px; /* La imagen se adapta al ancho del contenedor */
+    max-height: 300px;;
 }
 
 button {
     background-color: #059200;
     color: white;
+    border-radius: 5px;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
+    margin: 10px;
 }
 
 button:hover {
     background-color: #15c933;
 }
 
-@media (max-width: 768px){
-    .movie-item {
-        max-width: 100%;
+/* Media Queries */
+@media (max-width: 768px) {
+    .movie-card {
+        max-width: 220px; /* Ajusta el ancho para pantallas medianas */
         margin: 0 auto;
+    }
+
+    .movie-card h3 {
+        font-size: 1rem; /* Reduce el tamaño del título */
+    }
+
+    .movie-card p {
+        font-size: 0.85rem; /* Reduce el tamaño del texto */
     }
 }
 
-@media (max-width: 480px){
-    .movie-item h3 {
-        font-size: 1.2rem;
+@media (max-width: 480px) {
+    .movie-card {
+        max-width: 220px; 
     }
 
-    .movie-item p {
-        font-size: 0.9rem;
+    .movie-card h3 {
+        font-size: 0.95rem; /* Ajuste adicional para pantallas pequeñas */
+    }
+
+    .movie-card p {
+        font-size: 0.8rem; /* Texto más compacto */
+    }
+
+    .movie-card button {
+        padding: 6px 10px; /* Botón más pequeño */
+        font-size: 0.8rem;
     }
 }

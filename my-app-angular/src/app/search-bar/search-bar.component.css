@@ -1,10 +1,14 @@
+/* Estilos para el contenedor del input y el texto */
 .search-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 10px;
+    background-color: #f9f9f9;
 }
 
-input {
+/* Estilos para el input */
+.search-container input {
     width: 100%;
     max-width: 400px;
     padding: 10px;
@@ -13,7 +17,8 @@ input {
     border-radius: 4px;
 }
 
-p{
+/* Estilo para el texto de búsqueda en tiempo real */
+.search-container p{
     margin-top: 10px;
     color: gray;
 }

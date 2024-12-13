@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { MovieItemComponent } from "../movie-item/movie-item.component";
 import { MovieListComponent } from "../movie-list/movie-list.component";
 import { NgIf } from '@angular/common';
-import { MovieService } from '../movie.service';
+import { MovieService } from '../services/movie.service';
 import { SearchBarComponent } from "../search-bar/search-bar.component";
 
 @Component({

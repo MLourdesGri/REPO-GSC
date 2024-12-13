@@ -1,8 +1,8 @@
 import { NgFor, NgIf } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { MovieItemComponent } from '../movie-item/movie-item.component';
-import { MovieService } from '../movie.service';
-import { Movie } from '../movie';
+import { MovieService } from '../services/movie.service';
+import { Movie } from '../models/movie';
 
 /* export interface Movie {
   title: string;

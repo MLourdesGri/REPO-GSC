@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\repo-GSC\\CurrencyConvertorAPI\\",
+  "WorkspaceRootPath": "C:\\REPO-GSC-1\\CurrencyConvertorAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0EE987E-350C-4B97-8C37-F4A7521D2923}|CurrencyConvertorAPI.csproj|c:\\repo-gsc\\currencyconvertorapi\\resourse\\exampleapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B0EE987E-350C-4B97-8C37-F4A7521D2923}|CurrencyConvertorAPI.csproj|c:\\repo-gsc-1\\currencyconvertorapi\\resourse\\exampleapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0EE987E-350C-4B97-8C37-F4A7521D2923}|CurrencyConvertorAPI.csproj|solutionrelative:resourse\\exampleapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0EE987E-350C-4B97-8C37-F4A7521D2923}|CurrencyConvertorAPI.csproj|c:\\repo-gsc\\currencyconvertorapi\\controllers\\convertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B0EE987E-350C-4B97-8C37-F4A7521D2923}|CurrencyConvertorAPI.csproj|c:\\repo-gsc-1\\currencyconvertorapi\\controllers\\convertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0EE987E-350C-4B97-8C37-F4A7521D2923}|CurrencyConvertorAPI.csproj|solutionrelative:controllers\\convertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0EE987E-350C-4B97-8C37-F4A7521D2923}|CurrencyConvertorAPI.csproj|c:\\repo-gsc\\currencyconvertorapi\\resourse\\quotecurrencyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B0EE987E-350C-4B97-8C37-F4A7521D2923}|CurrencyConvertorAPI.csproj|c:\\repo-gsc-1\\currencyconvertorapi\\resourse\\quotecurrencyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0EE987E-350C-4B97-8C37-F4A7521D2923}|CurrencyConvertorAPI.csproj|solutionrelative:resourse\\quotecurrencyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0EE987E-350C-4B97-8C37-F4A7521D2923}|CurrencyConvertorAPI.csproj|c:\\repo-gsc\\currencyconvertorapi\\currencyconvertorapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{B0EE987E-350C-4B97-8C37-F4A7521D2923}|CurrencyConvertorAPI.csproj|c:\\repo-gsc-1\\currencyconvertorapi\\currencyconvertorapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B0EE987E-350C-4B97-8C37-F4A7521D2923}|CurrencyConvertorAPI.csproj|solutionrelative:currencyconvertorapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -32,37 +32,35 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "QuoteCurrencyResponse.cs",
-              "DocumentMoniker": "C:\\repo-GSC\\CurrencyConvertorAPI\\Resourse\\QuoteCurrencyResponse.cs",
+              "DocumentMoniker": "C:\\REPO-GSC-1\\CurrencyConvertorAPI\\Resourse\\QuoteCurrencyResponse.cs",
               "RelativeDocumentMoniker": "Resourse\\QuoteCurrencyResponse.cs",
-              "ToolTip": "C:\\repo-GSC\\CurrencyConvertorAPI\\Resourse\\QuoteCurrencyResponse.cs",
+              "ToolTip": "C:\\REPO-GSC-1\\CurrencyConvertorAPI\\Resourse\\QuoteCurrencyResponse.cs",
               "RelativeToolTip": "Resourse\\QuoteCurrencyResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T22:18:37.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T22:18:37.021Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ConverterController.cs",
-              "DocumentMoniker": "C:\\repo-GSC\\CurrencyConvertorAPI\\Controllers\\ConverterController.cs",
+              "DocumentMoniker": "C:\\REPO-GSC-1\\CurrencyConvertorAPI\\Controllers\\ConverterController.cs",
               "RelativeDocumentMoniker": "Controllers\\ConverterController.cs",
-              "ToolTip": "C:\\repo-GSC\\CurrencyConvertorAPI\\Controllers\\ConverterController.cs",
+              "ToolTip": "C:\\REPO-GSC-1\\CurrencyConvertorAPI\\Controllers\\ConverterController.cs",
               "RelativeToolTip": "Controllers\\ConverterController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T22:17:22.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T22:17:22.259Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ExampleAPI.cs",
-              "DocumentMoniker": "C:\\repo-GSC\\CurrencyConvertorAPI\\Resourse\\ExampleAPI.cs",
+              "DocumentMoniker": "C:\\REPO-GSC-1\\CurrencyConvertorAPI\\Resourse\\ExampleAPI.cs",
               "RelativeDocumentMoniker": "Resourse\\ExampleAPI.cs",
-              "ToolTip": "C:\\repo-GSC\\CurrencyConvertorAPI\\Resourse\\ExampleAPI.cs",
+              "ToolTip": "C:\\REPO-GSC-1\\CurrencyConvertorAPI\\Resourse\\ExampleAPI.cs",
               "RelativeToolTip": "Resourse\\ExampleAPI.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBQAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBQAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T22:18:17.184Z",
               "EditorCaption": ""
@@ -70,15 +68,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CurrencyConvertorAPI",
-              "DocumentMoniker": "C:\\repo-GSC\\CurrencyConvertorAPI\\CurrencyConvertorAPI.csproj",
+              "Title": "CurrencyConvertorAPI.csproj",
+              "DocumentMoniker": "C:\\REPO-GSC-1\\CurrencyConvertorAPI\\CurrencyConvertorAPI.csproj",
               "RelativeDocumentMoniker": "CurrencyConvertorAPI.csproj",
-              "ToolTip": "C:\\repo-GSC\\CurrencyConvertorAPI\\CurrencyConvertorAPI.csproj",
+              "ToolTip": "C:\\REPO-GSC-1\\CurrencyConvertorAPI\\CurrencyConvertorAPI.csproj",
               "RelativeToolTip": "CurrencyConvertorAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-14T22:17:27.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T22:17:27.909Z"
             }
           ]
         }
